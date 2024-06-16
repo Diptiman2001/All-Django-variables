@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{msg}}</h1>
+    <h1>{{msg|lower}}</h1>
+    <h1>{{msg|upper}}</h1>
+    <h1>{{msg|title}}</h1>
+    <h1>{{msg|lower|capfirst}}</h1>
+    <h1>{{msg|truncatechars:'15'}}</h1>
+    <h1>{{msg|truncatewords:'3'}}</h1>
+    <h1>{{msg|slice:5}}</h1>
+    <h1>{{msg|length}}</h1>
+    <h1>{{dt}}</h1>
+    <h1>{{dt|date:"y"}}</h1>
+    <h1>{{dt|date:"M"}}</h1>
+    <h1>{{dt|date:"D"}}</h1>
+    <h1>{{dt|date:"d"}}</h1>
+    <h1>{{dt|date:"d D M Y"}}</h1>
+    <h1>I have {{c}} {{animal}}{{c|pluralize:'s,es'}}</h1>
+    <h1>Th{{c|pluralize:'is,ese'}} {{c}} {{animal}}{{c|pluralize:'s'}} {{c|pluralize:'is,are'}} mine</h1>
+
+
+</body>
+</html>
